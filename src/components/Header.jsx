@@ -1,10 +1,16 @@
-import LOGO from "../assets/LOGO.png"
+import LOGO from "../assets/LOGO.svg" 
+import { Link } from "react-router-dom"
+import "../css/header.css"
 
-export function Header(){
+export function Header(props){
 
     return <header>
         <img src={LOGO} alt="Kasa Logo"/>
-        <nav></nav>
+        <nav>
+            <Link className= {props.homeStyle} to="/">Accueil</Link>
+            <Link className= {props.aboutStyle} to="/about">A Propos</Link>
+        </nav>
+
     </header>
 
 }

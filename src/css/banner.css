@@ -1,0 +1,26 @@
+.banner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 13.93em;
+    border-radius: 1.56em;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner p{
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}

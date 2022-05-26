@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 11.5em;
+}
+
+nav a{
+    color: #FF6060;
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline ;
+}
