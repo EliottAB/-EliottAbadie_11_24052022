@@ -1,0 +1,21 @@
+.logement{
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.625em;
+}
+
+.logement img{
+    height: 21.25em;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.625em;
+}
+
+.logement p{
+    position: absolute;
+    bottom: 0;
+    max-width: 80%;
+    margin: 1.25em;
+    font-size: 1.125em;
+    color: white;
+}

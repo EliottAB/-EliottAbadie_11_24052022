@@ -1,0 +1,9 @@
+.mainhome section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21.25em, 1fr));
+    grid-gap: 3.125em 3.75em;
+    margin: 2.68em 0;
+    padding: 3.5em 3.125em;
+    border-radius: 1.56em;
+    background-color: #F7F7F7;
+}

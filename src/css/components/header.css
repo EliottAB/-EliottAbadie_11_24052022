@@ -4,17 +4,18 @@ header{
     align-items: center;
 }
 
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
-    width: 11.5em;
+    width: 17em;
 }
 
-nav a{
+header a{
     color: #FF6060;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
-.underline{
+header .underline{
     text-decoration: underline ;
 }
