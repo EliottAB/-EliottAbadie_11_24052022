@@ -5,7 +5,7 @@ import "../css/components/header.css"
 export function Header(props){
 
     return <header>
-        <img src={LOGO} alt="Kasa Logo"/>
+        <img src={LOGO} fill="white" alt="Kasa logo"/>
         <nav>
             <Link className= {props.homeStyle} to="/">Accueil</Link>
             <Link className= {props.aboutStyle} to="/about">A Propos</Link>

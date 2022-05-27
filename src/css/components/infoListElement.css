@@ -1,0 +1,51 @@
+.infolist li{
+    position: relative;
+    list-style: none;
+    background-color: #F7F7F7;
+    transition: max-height .3s;
+}
+
+.infolist h3{
+    margin: 0;
+    background-color: #FF6060;
+    color: white;
+}
+
+.infolist p{
+    margin: 0;
+    font-weight: 400;
+    color: #FF6060;
+}
+
+.infolist input{
+    position: absolute;
+    transition: transform .3s;
+}
+
+.mainabout .infolist li{
+    margin-top: 1.875em;
+    border-radius: 0.31em;
+    max-height: 2.937em;
+    overflow: hidden;
+}
+
+.mainabout .infolist h3{
+    height: 1.9583em;
+    display: flex;
+    align-items: center;
+    padding-left: 0.75em;
+    border-radius: 0.2066em;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.mainabout .infolist p{
+    padding:  1.687em 1.125em 1.187em;
+    font-size: 1.5em;
+}
+
+.mainabout .infolist input{
+    top: 1em;
+    right: 2.038em;
+    width: 1.49em;
+}
