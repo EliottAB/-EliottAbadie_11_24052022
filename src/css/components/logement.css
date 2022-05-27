@@ -4,11 +4,19 @@
     border-radius: 0.625em;
 }
 
+.logement a{
+    display: block;
+    height: 21.25em;
+}
+
 .logement img{
     height: 21.25em;
     width: 100%;
     object-fit: cover;
     border-radius: 0.625em;
+    object-position: center;
+    background-position: center;
+    transition: scale .3s;
 }
 
 .logement p{
@@ -18,4 +26,8 @@
     margin: 1.25em;
     font-size: 1.125em;
     color: white;
+}
+
+.logement:hover.logement img{
+    scale: 110%;
 }

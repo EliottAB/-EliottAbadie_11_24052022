@@ -18,5 +18,10 @@ header a{
 }
 
 header .underline{
-    text-decoration: underline ;
+    animation: underline .3s forwards;
+}
+
+@keyframes underline {
+    0% {text-decoration: underline .07em rgba(255, 96, 96, 0);}
+    100% {text-decoration: underline .07em rgba(255, 96, 96, 1);}
 }
