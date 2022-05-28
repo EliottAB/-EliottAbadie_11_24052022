@@ -8,14 +8,14 @@ export function InfoListElement(props){
     const [text, setText] = useState()
 
     useEffect(()=>{
-        setText("")
+        setText(null)
     }, [])
 
     function handleClickRow(e){
         e.preventDefault()
         if(isopen === true){
             setOpen(false)
-            incrementText("", 300)
+            incrementText(null, 300)
         }else{
             setOpen(true)
             incrementText(<p>{props.text}</p>, 0)

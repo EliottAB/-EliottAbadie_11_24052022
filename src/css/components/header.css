@@ -22,6 +22,6 @@ header .underline{
 }
 
 @keyframes underline {
-    0% {text-decoration: underline .07em rgba(255, 96, 96, 0);}
-    100% {text-decoration: underline .07em rgba(255, 96, 96, 1);}
+    0% {text-decoration: underline .07em #FF606000;}
+    100% {text-decoration: underline .07em #FF6060;}
 }
