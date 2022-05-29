@@ -2,6 +2,8 @@ import "../css/components/infoListElement.css"
 import ROW from "../assets/row.svg"
 import { useState, useEffect } from "react"
 
+let canClose = true
+
 export function InfoListElement(props){
 
     const [isopen, setOpen] = useState()
@@ -12,13 +14,16 @@ export function InfoListElement(props){
     }, [])
 
     function handleClickRow(e){
-        e.preventDefault()
-        if(isopen === true){
-            setOpen(false)
-            incrementText(null, 300)
-        }else{
-            setOpen(true)
-            incrementText(<p>{props.text}</p>, 0)
+        if(canClose === true){
+            canClose = false
+            e.preventDefault()
+            if(isopen === true){
+                setOpen(false)
+                incrementText(null, 300)
+            }else{
+                setOpen(true)
+                incrementText(props.title === "Équipements" ? <ul>{props.text.map(el=><li>{el}</li>)}</ul> : <p>{props.text}</p>, 0)
+            }
         }
     }
 
@@ -39,6 +44,7 @@ export function InfoListElement(props){
     function incrementText(content, time){
         setTimeout(() => {
             setText(content)
+            canClose = true
         }, time);
     }
     

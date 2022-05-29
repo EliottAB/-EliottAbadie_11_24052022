@@ -1,0 +1,35 @@
+.firstinfos{
+    color: #FF6060;
+}
+
+.firstinfos h2, .firstinfos p{
+    margin: 0;
+}
+
+.firstinfos h2{
+    font-size: 2.25em;
+    line-height: 1.42em;
+    margin-top: 0.83em;
+}
+
+.firstinfos p{
+}
+
+.host{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10.43em;
+}
+
+.host img{
+    border-radius: 100%;
+    margin-left: 0.625em;
+    width: 4em;
+}
+
+.host p{
+    word-spacing: 10.43em;
+    text-align: end;
+    color: #FF6060;
+}
