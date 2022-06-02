@@ -1,5 +1,19 @@
-.mainabout .infolist{
+.mainabout{
+    min-height: calc(100vh - 26.05em);
+}
+
+.mainabout .collapse{
     margin: 0 auto 2.68em;
     padding: 0;
     width: 71.04%;
+}
+
+@media screen and (max-width: 720px){
+    .mainabout .collapse{
+        width: 100%;
+    }
+
+    .mainabout{
+        min-height: calc(100vh - 28.09em);
+    }
 }

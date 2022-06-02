@@ -31,3 +31,16 @@
 .logement:hover.logement img{
     scale: 110%;
 }
+
+@media screen and (max-width: 720px){
+
+    .logement a, .logement img{
+        height: 28.125em;
+    }
+
+    .logement p{
+        font-size: 2.25em;
+        margin: 0.625em;
+    }
+
+}

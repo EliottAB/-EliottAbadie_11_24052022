@@ -22,3 +22,31 @@
     color: #FF6060;
     font-size: 1.125em;
 }
+
+@media screen and (max-width: 720px){
+    
+    .main404{
+        min-height: 55em;
+        height: calc(100vh - 31.5em);
+        justify-content: center;
+    }
+
+    .main404 h1{
+        font-size: 12em;
+    }
+
+    .main404 p{
+        width: 14.6em;
+    }
+
+    .main404 span{
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .main404 .goback{
+        font-size: 1.5em;
+        margin-top: 10em;
+    }
+
+}

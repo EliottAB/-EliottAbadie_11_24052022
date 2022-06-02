@@ -5,6 +5,7 @@ footer{
     align-items: center;
     background-color: black;
     height: 13.06em;
+    margin-top: 2em;
 }
 
 footer img{
@@ -17,4 +18,16 @@ footer p{
     margin: 1.785em 0 0;
     font-size: 1.5em;
     color: white;
+}
+
+@media screen and (max-width: 720px){
+    
+    footer img{
+        width: 15.24em;
+        margin-top: 3em;
+    }
+    
+    footer p{
+        margin-top: 1.1em;
+    }
 }

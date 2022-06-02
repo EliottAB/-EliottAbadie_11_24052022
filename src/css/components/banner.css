@@ -3,8 +3,8 @@
     overflow: hidden;
     width: 100%;
     height: 13.93em;
-    border-radius: 1.56em;
     margin-top: 4.25em;
+    border-radius: 1.56em;
     text-align: center;
 }
 
@@ -26,4 +26,22 @@
     font-size: 3em;
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 720px){
+
+    .banner p{
+        padding: 0 3.19em 0 1em;
+        width: 9.4em;
+        text-align: start;
+    }
+
+    .banner.about{
+        height: 27.98em;
+    }
+
+    .banner.about img{
+        object-position: right;
+    }
+
 }

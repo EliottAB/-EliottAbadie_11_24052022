@@ -1,10 +1,10 @@
-import "../css/components/infoListElement.css"
+import "../css/components/collapse.css"
 import ROW from "../assets/row.svg"
 import { useState, useEffect } from "react"
 
 let canClose = true
 
-export function InfoListElement(props){
+export function Collapse(props){
 
     const [isopen, setOpen] = useState()
     const [text, setText] = useState()
@@ -22,7 +22,7 @@ export function InfoListElement(props){
                 incrementText(null, 300)
             }else{
                 setOpen(true)
-                incrementText(props.title === "Équipements" ? <ul>{props.text.map(el=><li>{el}</li>)}</ul> : <p>{props.text}</p>, 0)
+                incrementText(props.title === "Équipements" ? <ul>{props.text.map(el=><li className="equipement">{el}</li>)}</ul> : <p>{props.text}</p>, 0)
             }
         }
     }
@@ -30,13 +30,13 @@ export function InfoListElement(props){
     function open(element){
         if(element === "row"){
             if(isopen === true){
-                return {transform: "rotate(180deg)"}
-            }else{
                 return {transform: "rotate(0deg)"}
+            }else{
+                return {transform: "rotate(180deg)"}
             }
         }else{
             if(isopen === true){
-                return {maxHeight: "30em"}
+                return {maxHeight: "50em"}
             }
         }
     }

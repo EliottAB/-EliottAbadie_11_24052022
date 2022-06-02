@@ -38,7 +38,7 @@ export function Caroussel(props){
     return <div className="caroussel">
         <input onClick={()=> changeImage(-1, props.pictures.length - 1)} type="image" src={ROW} alt="row"/>
         <p className="imgcount">{`${index+1} / ${props.pictures.length}`}</p>
-        <img src={props.pictures[index]} alt="" />
+        <img src={props.pictures[index]} alt={"picture" + (index+1)} />
         <img className="animator" src={props.pictures[index2]} alt="" />
         <input onClick={()=> changeImage(1, 0)} type="image" src={ROW} alt="row"/>
     </div>

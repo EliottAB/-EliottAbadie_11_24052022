@@ -1,3 +1,22 @@
+.mainlogement{
+    min-height: calc(100vh - 24.3em);
+}
+
+.flexinfos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstline, .secline{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.secline{
+    align-items: flex-end;
+}
+
 .firstinfos{
     color: #FF6060;
 }
@@ -7,12 +26,14 @@
 }
 
 .firstinfos h2{
+    max-width: 75vw;
+    margin-top: 0.83em;
     font-size: 2.25em;
     line-height: 1.42em;
-    margin-top: 0.83em;
 }
 
 .firstinfos p{
+    font-size: 1.125em;
 }
 
 .host{
@@ -20,6 +41,7 @@
     justify-content: space-between;
     align-items: center;
     width: 10.43em;
+    margin: 1.86em 0 1.26em;
 }
 
 .host img{
@@ -32,4 +54,74 @@
     word-spacing: 10.43em;
     text-align: end;
     color: #FF6060;
+}
+
+
+.tags{
+    display: flex;
+    width: 50vw;
+    flex-wrap: wrap;
+    margin: 1.25em 0 0;
+    padding: 0;
+}
+
+.tags li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.625em 0.625em 0;
+    padding: 0.187em 1em;
+    text-align: center;
+    border-radius: 0.625em;
+    list-style: none;
+    color: white;
+    background-color: #FF6060;
+}
+
+.stars{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.star{
+    width: 1.875em;
+    margin-left: 0.625em;
+}
+
+@media screen  and (max-width: 720px){
+
+    .mainlogement{
+        min-height: calc(100vh - 26.35em);
+    }    
+    
+    .flexinfos{
+        flex-direction: column;
+    }
+    
+    .secline{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .firstline p{
+        font-size: 1.69em;
+    }
+    
+    .tags{
+        width: 100%;
+    }
+
+    .tags li{
+        font-size: 1.21em;
+    }
+
+    .host{
+        margin: 1em 0;
+    }
+
+    .host p{
+        margin: 0;
+        font-size: 1.4em;
+    }
 }

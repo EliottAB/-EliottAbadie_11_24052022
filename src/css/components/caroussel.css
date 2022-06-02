@@ -42,6 +42,25 @@
     right: 2em;
     z-index: 1;
     padding: .4em .8em;
+    border-radius: 100vw;
     color: white;
     background-color: black;
+}
+
+@media screen  and (max-width: 720px){
+    
+    .caroussel{
+        height: 30.6306em;
+    }
+
+    .caroussel input{
+        width: 3.112em;
+    }
+
+    .imgcount{
+        font-size: 1.2em;
+        top: 0.8em;
+        right: 1.6em;
+    }
+
 }

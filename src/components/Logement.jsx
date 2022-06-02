@@ -7,7 +7,7 @@ export function Logement(props){
 
     return <article className="logement">
         <Link to={"/" + logement.id}>
-            <img src={logement.cover} alt="" />
+            <img src={logement.cover} alt="Cover"/>
             <p>{logement.title}</p>
         </Link>
     </article>

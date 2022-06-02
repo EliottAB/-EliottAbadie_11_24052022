@@ -2,13 +2,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2.5em 5.208vw 0;    
+    margin: 2.5em 5.208vw 0;
 }
 
 header nav{
     display: flex;
     justify-content: space-between;
     width: 17em;
+}
+
+header img{
+    width: 13.1445em;
 }
 
 header a{
@@ -24,4 +28,16 @@ header .underline{
 @keyframes underline {
     0% {text-decoration: underline .07em #FF606000;}
     100% {text-decoration: underline .07em #FF6060;}
+}
+
+@media screen and (max-width: 720px){
+    
+    header img{
+        width: 19.5em;
+    }
+
+    header nav{
+        width: 15em;
+    }
+
 }
