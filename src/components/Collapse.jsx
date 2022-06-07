@@ -22,7 +22,7 @@ export function Collapse(props){
                 incrementText(null, 300)
             }else{
                 setOpen(true)
-                incrementText(props.title === "Équipements" ? <ul>{props.text.map(el=><li className="equipement">{el}</li>)}</ul> : <p>{props.text}</p>, 0)
+                incrementText(props.title === "Équipements" ? <ul>{props.text.map(el=><li key={el} className="equipement">{el}</li>)}</ul> : <p>{props.text}</p>, 0)
             }
         }
     }
