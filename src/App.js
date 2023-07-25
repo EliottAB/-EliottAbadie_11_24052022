@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/*" element={<Home/>} />
+        <Route path="/-EliottAbadie_11_24052022" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>}/>
         <Route path="/:id" element={<Logement/>}/>
         <Route path="/*" element={<Error404/>}/>
