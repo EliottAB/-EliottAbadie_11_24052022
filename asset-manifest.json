@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dc0a160.css",
-    "main.js": "/static/js/main.e16a1e8c.js",
-    "static/js/787.0ce615c0.chunk.js": "/static/js/787.0ce615c0.chunk.js",
-    "static/media/aboutimg.png": "/static/media/aboutimg.a4c8f112ec14118e0a6f.png",
-    "static/media/homeimg.png": "/static/media/homeimg.02019cd15b87595c0fe3.png",
-    "static/media/LOGO.svg": "/static/media/LOGO.a6101328193bb3191cbcb50c120ec0d1.svg",
-    "index.html": "/index.html",
-    "static/media/row.svg": "/static/media/row.d0393e6dd313baf543be9c1f2b575cde.svg",
-    "static/media/stargrey.svg": "/static/media/stargrey.7e4ba6032d7d80ecc30aa389973cef95.svg",
-    "static/media/starpink.svg": "/static/media/starpink.6430150c126a3adf92c132c52c9c7428.svg",
-    "main.4dc0a160.css.map": "/static/css/main.4dc0a160.css.map",
-    "main.e16a1e8c.js.map": "/static/js/main.e16a1e8c.js.map",
-    "787.0ce615c0.chunk.js.map": "/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/-EliottAbadie_11_24052022/static/css/main.4dc0a160.css",
+    "main.js": "/-EliottAbadie_11_24052022/static/js/main.079d6887.js",
+    "static/js/787.0ce615c0.chunk.js": "/-EliottAbadie_11_24052022/static/js/787.0ce615c0.chunk.js",
+    "static/media/aboutimg.png": "/-EliottAbadie_11_24052022/static/media/aboutimg.a4c8f112ec14118e0a6f.png",
+    "static/media/homeimg.png": "/-EliottAbadie_11_24052022/static/media/homeimg.02019cd15b87595c0fe3.png",
+    "static/media/LOGO.svg": "/-EliottAbadie_11_24052022/static/media/LOGO.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "index.html": "/-EliottAbadie_11_24052022/index.html",
+    "static/media/row.svg": "/-EliottAbadie_11_24052022/static/media/row.d0393e6dd313baf543be9c1f2b575cde.svg",
+    "static/media/stargrey.svg": "/-EliottAbadie_11_24052022/static/media/stargrey.7e4ba6032d7d80ecc30aa389973cef95.svg",
+    "static/media/starpink.svg": "/-EliottAbadie_11_24052022/static/media/starpink.6430150c126a3adf92c132c52c9c7428.svg",
+    "main.4dc0a160.css.map": "/-EliottAbadie_11_24052022/static/css/main.4dc0a160.css.map",
+    "main.079d6887.js.map": "/-EliottAbadie_11_24052022/static/js/main.079d6887.js.map",
+    "787.0ce615c0.chunk.js.map": "/-EliottAbadie_11_24052022/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dc0a160.css",
-    "static/js/main.e16a1e8c.js"
+    "static/js/main.079d6887.js"
   ]
 }
